@@ -18,6 +18,10 @@ The two networks are trained together in a zero-sum game: the generator improves
 
 The project uses the **OASIS Brain MRI Dataset**, specifically the preprocessed slices available in the `./OASIS/keras_png_slices_train/` directory. Ensure that the images are grayscale (single channel) and in `.png` format.
 
+## Image Generator
+
+This project has an image generator (generate_images.py) that can generate images from an existing model saved as a .pth file
+
 ## Dependencies
 
 Ensure you have the following dependencies installed:
